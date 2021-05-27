@@ -9,6 +9,7 @@ function App () {
     <div className='App'>
       <BrowserRouter>
         <Switch>
+          {/* Amit */}
           <Route exact path='/' component={SignIn} />
           <Route exact path='/signup' component={SignUp} />
           <Route exact path='/dashboard' component={Dashboard} />
